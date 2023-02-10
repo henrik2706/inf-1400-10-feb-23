@@ -3,6 +3,9 @@ class Node:
     
     def __init__(self, frekvens):
         self.frekvens = frekvens
+
+    def nodeprat(self):
+	print("Hey ho lets go")
         
     def __str__(self):
         return "Node, frekvens: " + str(self.frekvens)
